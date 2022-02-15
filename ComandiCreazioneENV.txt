@@ -1,0 +1,6 @@
+#
+conda create -n episcanpy2 python=3.7 scanpy notebook
+conda activate episcanpy2
+conda install -c conda-forge python-igraph louvain
+pip install episcanpy
+pip install openpyxl
